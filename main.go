@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/coreos/bbolt"
+	bolt "go.etcd.io/bbolt"
 	"log"
 	"math/rand"
 	"net/http"

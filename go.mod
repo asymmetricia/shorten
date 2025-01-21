@@ -1,8 +1,9 @@
-module github.com/pdbogen/shorten
+module github.com/asymmetricia/shorten
 
-go 1.12
+go 1.22
 
-require (
-	github.com/coreos/bbolt v0.0.0-20180118181522-ee30b748bcfb
-	golang.org/x/sys v0.0.0-20190526052359-791d8a0f4d09 // indirect
-)
+toolchain go1.23.2
+
+require go.etcd.io/bbolt v1.3.11
+
+require golang.org/x/sys v0.29.0 // indirect
