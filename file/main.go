@@ -12,7 +12,7 @@ import (
 	"sync"
 )
 
-var urlRegexp = regexp.MustCompile(`(https?://[^) \n\t}\]]+)`)
+var urlRegexp = regexp.MustCompile(`(https?://[^) \n\t}\[\]]+)`)
 
 var cache = map[string]string{}
 var cacheMu = &sync.RWMutex{}
